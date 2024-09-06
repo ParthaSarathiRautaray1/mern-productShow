@@ -15,6 +15,7 @@ export const getProducts = async (req,res) =>{
 
 
 export const createProduct =  async (req, res) => {
+    //console.log("Received product data:", req.body); 
 
     
     const product = req.body // user will send this data 
